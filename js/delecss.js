@@ -41,7 +41,6 @@ function fileReader(dir) {
     }
   })
 }
-
 function del(dir) {
   fs.unlink(dir, (err) => {
     if(err){
