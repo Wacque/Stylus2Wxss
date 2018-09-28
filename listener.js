@@ -2,8 +2,8 @@ const fs = require('fs')
 const path = require('path')
 
 // 返回文件下所有内容，包括文件和文件夹
-//__dirname为当前目录路径，'../'为上级目录
-var dir = path.join(__dirname, '../')
+//__dirname为当前目录路径，'./'为当前目录
+var dir = path.join(__dirname, './')
 var inter
 var filesArr = []
 
