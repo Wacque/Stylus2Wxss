@@ -1,0 +1,13 @@
+p {
+  width: 100px;
+  height: 200px;
+  background: #fff;
+  color: #f00;
+  border: none;
+  font-size: 100px;
+}
+p:after {
+  content: '';
+  display: block;
+  width: 100%;
+}
